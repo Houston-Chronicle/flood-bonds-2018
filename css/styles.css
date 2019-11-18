@@ -1,0 +1,466 @@
+/*Generic text styles*/
+p {
+    color: #222;
+    font-family: "Georgia", serif;
+    font-size: 18px;
+    line-height: inherit;
+    margin-bottom: 24px
+}
+hr {
+    border-top: 3px solid #ddd;
+    margin-top: 5px;
+}
+h1 {
+    font-family: 'Sanchez', serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+h2 {
+    display: inline;
+    font-family: 'Sanchez', serif;
+}
+h3 {
+    font-family: 'Sanchez', serif;
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+.interactive-header {
+    display: block;
+    font-family: 'Sanchez', serif;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 35px;
+    margin: 3% auto;
+}
+/*No project conditional*/
+#noproject {
+    color: red;
+    text-align: center
+}
+/*Intro styles*/
+#header {
+    color: #222;
+    font-family: Georgia, serif;
+    font-size: 62px;
+    line-height: 65px;
+    margin-bottom: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.prologue p {
+    text-align: center
+}
+#main {
+    min-height: 150vh
+}
+@media(max-width:500px) {
+    #main {
+        min-height: 235vh
+    }
+}
+#bonds {
+    margin: 36px 0
+}
+.intro {
+    margin: 24px 0
+}
+.intro p {
+    font-style: italic;
+    text-align: center;
+}
+#invitation {
+    font-family: "Sanchez", serif
+}
+/*Search form and select styles*/
+.form {
+    border: 1px solid lightgray;
+    list-style: none;
+    margin-bottom: 0;
+    padding: 0;
+    width: 75%
+}
+.form li, option {
+    color: #222;
+    font-family: 'Antenna Black'
+}
+select {
+    color: #808080
+}
+.form li a {
+    cursor: pointer;
+    text-decoration: none;
+}
+.form a:hover {
+    border-bottom: 0;
+    text-decoration: none
+}
+.input-special, select {
+    border: 1px solid #ddd;
+    font-family: 'Antenna';
+    font-size: 16px;
+    padding: 12px;
+    width: 75%;
+}
+select:hover {
+    cursor: pointer
+}
+/*Projects display tab;e*/
+.projects {
+    border-bottom: 1px solid #222
+}
+.moredetails {
+    margin-bottom: 24px;
+    padding-top: 24px
+}
+.pdetails .component {
+    background-color: #fafafa;
+    padding: 15px
+}
+.cdetails .component {
+    background-color: #e0eee0;
+    padding: 15px
+}
+/*Types of proejcts responsive styles*/
+@media only screen and (min-width:1025px) {
+    .local {
+        background-color: #e0eee0
+    }
+    .grant {
+        background-color: #fafafa
+    }
+}
+/*Hyperlink styles*/
+a {
+    border-bottom: 0;
+    color: #222;
+    text-decoration: none;
+}
+a:visited {
+    color: #222
+}
+a:hover {
+    border-bottom: 0;
+    color: #222;
+    cursor: pointer;
+}
+p a {
+    text-decoration: underline
+}
+/*Modal styling*/
+.modal .fa {
+    padding-right: 25px
+}
+.modal p {
+    font-size: 16px;
+    margin-bottom: 18px;
+    text-align: left
+}
+.modal a {
+    color: #222
+}
+/*Responsive modal styling*/
+@media(min-width:1200px) {
+    .share-modal .modal-content {
+        margin: 0 auto;
+        width: 50%;
+    }
+}
+.share-modal a, .share-modal a:hover {
+    border-bottom: 0;
+    text-decoration: none;
+}
+/*Navbar styling*/
+.navbar-default {
+    background-color: #000;
+    border-color: #000
+}
+.navbar-brand>img {
+    display: block;
+    max-height: 25px;
+    max-width: 228px;
+}
+.navbar-default .navbar-collapse {
+    background-color: #000
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff
+}
+.navbar-default .navbar-nav>li>a:focus {
+    color: #fff
+}
+.navbar-default .navbar-nav>li>a:hover {
+    background-color: #fff;
+    color: #000;
+}
+.navbar-default .navbar-nav>.open>a {
+    background-color: #fff;
+    color: #000
+}
+.navbar-default .navbar-nav>.open>a:hover {
+    background-color: #fff;
+    color: #000
+}
+.navbar-default .navbar-nav>.open>a:focus {
+    background-color: #fff;
+    color: #000
+}
+.dropdown-menu {
+    background-color: #fff;
+    border: 1px solid #fff
+}
+.dropdown-menu>li>a {
+    color: #000
+}
+.dropdown-menu>li>a:hover {
+    background-color: #000;
+    color: #fff
+}
+.img-responsive {
+    display: block;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+.navbar-default .fa-2x {
+    color: #fff
+}
+.navbar-default li>a:hover>.fa-2x {
+    background-color: white;
+    color: black
+}
+nav a {
+    border-bottom: 0
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff
+}
+.navbar-default .navbar-toggle:hover {
+    background-color: #fff
+}
+.navbar-default .navbar-toggle:hover .icon-bar {
+    background-color: #000
+}
+@media(min-width:200px) and (max-width:321px) {
+    .navbar-brand {
+        padding: 15px 0
+    }
+}
+@media(max-width:767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: white
+    }
+    .navbar-default .navbar-nav>.open>a:focus {
+        background-color: black;
+        color: white;
+    }
+}
+@media(max-width:1220px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left, .navbar-right {
+        float: none!important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+    .navbar-fixed-top {
+        border-width: 0 0 1px;
+        top: 0;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .collapse.in {
+        display: block!important;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:1205px) {
+    .navbar-default .navbar-collapse {
+        max-height: 100vh;
+    }
+}
+/*Table styles*/
+table {
+    margin: 24px 0 36px 0;
+    width: 100%;
+}
+
+td {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    font-family: 'Georgia', serif;
+    padding: 10px;
+}
+tr {
+    border-bottom: 1px solid #ddd;
+}
+th {
+    border: 1px solid #ddd;
+    font-family: 'Antenna Black';
+    padding: 10px;
+    text-align: center;
+}
+.first {
+    width: 20%
+}
+/*Button styles*/
+.btn {
+    font-family: 'Sanchez', serif;
+    margin: 36px auto;
+}
+.btn:hover {
+    background-color: #fff;
+    border-color: #ccc;
+}
+.btn,.btn-default,.btn-lg,.btn-block {
+    text-align: center;
+}
+@media(max-width:500px) {
+    .btn-group-lg>.btn,.btn-lg {
+        font-size: 14px;
+    }
+}
+/*Results styles*/
+.results {
+    min-height: 135vh;
+}
+@media(max-width:500px) {
+    .results {
+        min-height: 200vh;
+    }
+}
+/*Related stories styles*/
+.related {
+    margin-bottom: 10px;
+}
+.stories {
+    padding-left: 0;
+}
+.stories li, .stories li a {
+    color: gray;
+    display: block;
+    font-family: 'Georgia', serif;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+/*Search and select styling*/
+@media(max-width:500px) {
+    .searchzips, .selectsheds {
+        margin-bottom: 48px;
+    }
+    #bonds {
+        margin: 0;
+    }
+    .pdetails {
+        margin-bottom: 24px;
+    }
+}
+/*Responsive table styles*/
+@media only screen and (max-width:760px),
+(min-device-width:768px) and (max-device-width:1024px) {
+    table, thead, tbody, td, tr {
+        display: block;
+    }
+    th {
+        display: none;
+    }
+    thead tr {
+        left: -9999px;
+        position: absolute;
+        top: -9999px;
+    }
+    tr {
+        margin: 0 0 1rem 0;
+    }
+    tr:nth-child(odd) {
+        background: #fafafa
+    }
+    td {
+        border: 0;
+        border-bottom: 1px solid #ddd;
+        padding-left: 50%;
+        position: relative;
+    }
+    td:before {
+        left: 6px;
+        padding-right: 10px;
+        position: absolute;
+        top: 0;
+        white-space: nowrap;
+        width: 45%;
+    }
+    .first {
+        width: 100%;
+    }
+    .shedsonly td:nth-of-type(1):before {
+        content: "Project title";
+    }
+    .shedsonly td:nth-of-type(2):before {
+        content: "Project type";
+    }
+    .shedsonly td:nth-of-type(3):before {
+        content: "Harris County precinct";
+    }
+    .shedsonly td:nth-of-type(4):before {
+        content: "Partner agency share";
+    }
+    .shedsonly td:nth-of-type(5):before {
+        content: "Harris County share";
+    }
+    .shedsonly td:nth-of-type(6):before {
+        content: "Grant total";
+    }
+    .shedsonly td:nth-of-type(7):before {
+        content: "Harris County total";
+    }
+    .shedsonly td:nth-of-type(8):before {
+        content: "Benefits";
+    }
+    .zipsonly td:nth-of-type(1):before {
+        content: "Project title";
+    }
+    .zipsonly td:nth-of-type(2):before {
+        content: "Watershed";
+    }
+    .zipsonly td:nth-of-type(3):before {
+        content: "Project type";
+    }
+    .zipsonly td:nth-of-type(4):before {
+        content: "Harris County precinct";
+    }
+    .zipsonly td:nth-of-type(5):before {
+        content: "Partner agency share";
+    }
+    .zipsonly td:nth-of-type(6):before {
+        content: "Harris County share";
+    }
+    .zipsonly td:nth-of-type(7):before {
+        content: "Grant total";
+    }
+    .zipsonly td:nth-of-type(8):before {
+        content: "Harris County total";
+    }
+    .zipsonly td:nth-of-type(9):before {
+        content: "Benefits";
+}
